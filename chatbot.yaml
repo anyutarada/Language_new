@@ -3,7 +3,12 @@ name: zb-cailapub
 entryPoint: main.sc
 
 botEngine: v2
-language: ru
+injector:
+  defaultLanguage: ru
+  unknownLanguageMessage: Извините, этот язык не поддерживается.
+  bots:
+    ru: ""
+    en: ""
 
 tests:
   include:
